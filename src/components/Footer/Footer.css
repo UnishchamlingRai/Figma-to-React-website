@@ -1,0 +1,36 @@
+.app_footer{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.app_footer_top,.app_footer_button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.app_footer_top ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+.app_footer_top ul li{
+    list-style: none;
+}
+.app_footer_top ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.app_footer_button_socialIcon img{
+    height: 30px;
+    width: 100px;
+}
+
+
+@media screen and (max-width: 700px) {
+    
+}

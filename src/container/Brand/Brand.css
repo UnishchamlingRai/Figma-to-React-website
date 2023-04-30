@@ -1,0 +1,43 @@
+.app_brand{
+    background-color:black;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 200px;
+    flex-wrap: nowrap;
+}
+.brand_name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 60px;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+}
+
+
+@media screen and (max-width: 1050px) {
+    .app_brand{
+        flex-direction: column;
+        gap: 20px;
+        height: 200px;
+    }
+   .brand_name img{
+    width: 100px;
+    height: 40px;
+   }
+   .eye{
+    display: none;
+}
+}
+
+@media screen and (max-width: 700px) {
+    .app_brand{
+        height: auto;
+        align-items: center;
+        height: 250px;
+    }
+  
+   
+    
+}
